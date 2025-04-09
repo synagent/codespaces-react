@@ -25,17 +25,15 @@ const Hero = () => (
     </p>
 
     <a
-  href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-  target="_blank"
-  rel="noopener noreferrer"
-  className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold shadow-lg transition-all"
-  data-aos="zoom-in"
-  data-aos-delay="500"
->
-  Watch Demo
-</a>
-
-  
+      href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"  
+      target="_blank"
+      rel="noopener noreferrer"
+      className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold shadow-lg transition-all"
+      data-aos="zoom-in"
+      data-aos-delay="500"
+    >
+      Watch Demo
+    </a>
   </section>
 );
 
