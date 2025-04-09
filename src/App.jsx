@@ -10,8 +10,7 @@ function App() {
 for Business Efficiency <span className="heart"></span> 
         </p>
         <p className="small">
-        Your AI Assistant
-        for Business Efficiency.
+        Launch your own AI agent to automate workflows, respond instantly, and stay productive.
         </p>
         <p>
           <a

@@ -2,8 +2,11 @@ import Hero from './components/Hero';
 import VideoSection from './components/VideoSection';
 import Animation from './components/Animation';
 import Footer from './components/Footer';
+import Features from './components/Features';
 import BackgroundCircuits from './components/BackgroundCircuits';
 import './index.css';
+
+
 
 function App() {
   return (
