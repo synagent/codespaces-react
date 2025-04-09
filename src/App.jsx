@@ -20,7 +20,7 @@ for Business Efficiency <span className="heart">♥️</span>
             target="_blank"
             rel="noopener noreferrer"
           >
-            Learn React
+            Watch Video
           </a>
         </p>
       </header>
