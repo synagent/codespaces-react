@@ -5,90 +5,20 @@
     <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using @vitejs/plugin-react"
-    />
+    <meta name="description" content="Web site created using @vitejs/plugin-react" />
     <link rel="apple-touch-icon" href="/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="manifest" href="/manifest.json" />
     <title>SynAgent</title>
+
+    <!-- Lottie support -->
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
-
   </head>
-  
+
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div class="landing-container">
-      <div class="logo-area">
-        <img src="image.png" alt="Logo" class="logo-img" />
-      </div>
-      <div class="content-area">
-              
-      </div>
-    </div>
-    <section class="min-h-screen flex flex-col justify-center items-center px-6 text-center" data-aos="fade-up">
-    <h1 class="text-4xl md:text-5xl font-extrabold mb-4">Your AI Assistant<br />for Business Efficiency</h1>
-    <p class="max-w-xl text-lg text-slate-300 mb-6">
-      Launch your own AI agent to automate workflows, respond instantly, and stay productive.
-    </p>
-    <a href="#video" class="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 rounded-lg font-semibold shadow-lg transition-all">Watch Demo</a>
-  </section>
-
-  <section id="video" class="bg-slate-800 py-16 px-6 text-center" data-aos="fade-in">
-    <h3 class="text-3xl font-bold mb-6">See SynAgent in Action</h3>
-    <div class="max-w-4xl mx-auto aspect-video rounded-xl overflow-hidden shadow-xl">
-      <iframe class="w-full h-full" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </section>
-
-  <section class="py-12 text-center" data-aos="zoom-in">
-    <lottie-player
-      src="https://assets7.lottiefiles.com/packages/lf20_myejiggj.json"
-      background="transparent"
-      speed="1"
-      style="width: 300px; height: 300px; margin: 0 auto;"
-      loop
-      autoplay>
-    </lottie-player>
-  </section>
-
-  <footer class="text-center py-8 text-slate-400 text-sm" data-aos="fade-up">
-    © 2025 SynAgent. All rights reserved. <br />
-    <span>Version: v2.0.0</span>
-  </footer>
+    <!-- Only React mounts into this -->
     <div id="root"></div>
-    <div class="circuit-decor">
-      <svg width="100%" height="100%" preserveAspectRatio="xMidYMid slice">
-        <!-- Glowing central circle -->
-        <circle cx="50%" cy="50%" r="80" fill="none" stroke="#00ffff" stroke-width="2" opacity="0.3"/>
-        <circle cx="50%" cy="50%" r="60" fill="none" stroke="#00ffff" stroke-width="1" opacity="0.2"/>
-    
-        <!-- Circuit lines -->
-        <line x1="50%" y1="50%" x2="90%" y2="50%" stroke="#00ffff" stroke-width="1" opacity="0.2"/>
-        <line x1="50%" y1="50%" x2="10%" y2="70%" stroke="#00ffff" stroke-width="1" opacity="0.2"/>
-    
-        <!-- Small glow orbs -->
-        <circle cx="70%" cy="40%" r="5" fill="#00ffff" opacity="0.3"/>
-        <circle cx="30%" cy="60%" r="8" fill="#00ffff" opacity="0.2"/>
-      </svg>
-    </div>
-    
-  
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
-
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <!-- No other content here — React will render everything -->
+    <script type="module" src="/src/index.jsx"></script>
   </body>
-  
-  <script type="module" src="/src/index.jsx"></script>
 </html>
