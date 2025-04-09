@@ -41,7 +41,15 @@ const Features = () => {
               data-aos-delay={index * 100}
               data-aos-duration="800"
             >
-              <div className="text-5xl mb-4">{feature.icon}</div>
+             <div
+                className="text-5xl mb-4"
+                style={{
+                 fontFamily: `'Segoe UI Emoji', 'Apple Color Emoji', 'Noto Color Emoji', sans-serif`
+        }}
+>
+        {feature.icon}
+            </div>
+
               <h3 className="text-xl font-semibold mb-2">{feature.title}</h3>
               <p className="text-slate-300">{feature.description}</p>
             </div>
