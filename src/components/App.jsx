@@ -1,4 +1,6 @@
 import Hero from './components/Hero';
+import { FaBrain } from 'react-icons/fa';
+
 import React from 'react';
 import VideoSection from './components/VideoSection';
 import Animation from './components/Animation';
