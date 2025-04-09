@@ -13,6 +13,10 @@ function App() {
 
       {/* Main Sections */}
       <Hero />
+      <div className="h-screen bg-slate-800 flex items-center justify-center text-white" data-aos="fade-up">
+  <h2 className="text-3xl font-bold">Scroll Test Section</h2>
+</div>
+
       <VideoSection />
       <Animation />
       <Footer />
