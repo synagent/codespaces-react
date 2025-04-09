@@ -21,6 +21,7 @@ function App() {
 </div>
 
       <VideoSection />
+      <Features />
       <Animation />
       <Footer />
     </div>
