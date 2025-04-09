@@ -7,7 +7,7 @@ function App() {
         <img src="Octocat.png" className="App-logo" alt="logo" />
         <p>
         Your AI Assistant
-for Business Efficiency <span className="heart">♥️</span> 
+for Business Efficiency <span className="heart"></span> 
         </p>
         <p className="small">
         Your AI Assistant
