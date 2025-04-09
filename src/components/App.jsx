@@ -1,9 +1,11 @@
 import Hero from './components/Hero';
+import React from 'react';
 import VideoSection from './components/VideoSection';
 import Animation from './components/Animation';
 import Footer from './components/Footer';
 import Features from './components/Features';
 import BackgroundCircuits from './components/BackgroundCircuits';
+import React from 'react';
 import './index.css';
 
 
@@ -13,7 +15,10 @@ function App() {
     <div className="relative bg-radial text-white font-sans overflow-x-hidden min-h-screen">
       {/* Visual SVG Glow Background */}
       <BackgroundCircuits />
-
+{/* Optional: Test if icon renders */}
+<div className="text-center py-6 text-blue-400 text-5xl">
+        <FaBrain /> {/* ← This should show a brain icon at the top */}
+      </div>
       {/* Main Sections */}
       <Hero />
       <div className="h-screen bg-slate-800 flex items-center justify-center text-white" data-aos="fade-up">
@@ -24,6 +29,10 @@ function App() {
       <Features />
       <Animation />
       <Footer />
+       {/* Optional: Scroll space to trigger AOS */}
+       <div className="h-screen bg-black flex justify-center items-center text-2xl">
+        👋 Scroll test block
+      </div>
     </div>
   );
 }
