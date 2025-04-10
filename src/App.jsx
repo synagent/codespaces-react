@@ -1,4 +1,5 @@
 import './App.css';
+import Hero from './components/Hero';
 import { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -17,6 +18,10 @@ function App() {
           alt="SynAgent Logo"
           className="mx-auto w-24 h-24 mb-4 glow"
         />
+        <h1 className="text-4xl font-bold text-green-400 text-center mt-10">
+  ✅ Tailwind is finally working!
+</h1>
+
         <h1 className="text-4xl md:text-5xl font-bold drop-shadow-lg">"SynAgent – Smarter Systems, Stronger Businesses."</h1>
         <p className="text-lg text-slate-300 mt-4">
           Your AI Assistant for Business Efficiency
