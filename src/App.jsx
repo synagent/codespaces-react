@@ -9,15 +9,15 @@ function App() {
   }, []);
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-[#0F172A] to-[#1E3A8A] text-white font-sans text-center px-4">
+    <div className="min-h-screen bg-gradient-to-br from-[#0F172A] to-[#1E3A8A] text-white font-sans px-4">
       {/* Logo & Hero */}
-      <header className="py-12">
+      <header className="w-full max-w-3xl py-12 mx-auto text-center">
         <img
           src="/synagent-logo.png"
           alt="SynAgent Logo"
           className="mx-auto w-24 h-24 mb-4 glow"
         />
-        <h1 className="text-4xl md:text-5xl font-bold drop-shadow-lg">SynAgent</h1>
+        <h1 className="text-4xl md:text-5xl font-bold drop-shadow-lg">"SynAgent – Smarter Systems, Stronger Businesses."</h1>
         <p className="text-lg text-slate-300 mt-4">
           Your AI Assistant for Business Efficiency
         </p>
@@ -35,7 +35,9 @@ function App() {
       </header>
 
       {/* How It Works */}
-      <section className="py-20 bg-slate-900 px-6">
+      <section className="py-20 bg-slate-900 px-6 text-center">
+      <h3 className="text-4xl text-red-500 font-bold text-center">Tailwind Is Working</h3>
+
         <h2 className="text-3xl md:text-4xl font-bold mb-12" data-aos="fade-up">
           How SynAgent Works
         </h2>
