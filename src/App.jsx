@@ -8,11 +8,11 @@ function App() {
       <header className="App-header">
         <img src="image.png" className="App-logo" alt="logo" />
         <p>
-        Your AI Assistant
+        Your AI Assistant test
 for Business Efficiency <span className="heart"></span> 
         </p>
         <p className="small">
-        Launch your own AI agent to automate workflows, respond instantly, and stay productive. Y mas
+        Launch your own AI agent to automate workflows, respond instantly, and stay productive.
         </p>
         <p>
           {/* Main Sections */}
