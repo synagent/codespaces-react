@@ -1,21 +1,30 @@
-import React from 'react';
-import LandingPage from './components/LandingPage';
-import Hero from "./components/Hero";
-import VideoSection from "./components/VideoSection";
-import Animation from "./components/Animation";
-import Footer from "./components/Footer";
-import BackgroundCircuits from "./components/BackgroundCircuits";
-import './index.css';
+import './App.css';
 
 function App() {
   return (
-    <div className="relative bg-radial text-white font-sans overflow-x-hidden">
-      <BackgroundCircuits />
-      <Hero />
-      <VideoSection />
-      <Animation />
-      <Footer />
-    </div>)
+    <div className="App">
+      <header className="App-header">
+        <img src="image.png" className="App-logo" alt="logo" />
+        <p>
+        Your AI Assistant
+for Business Efficiency <span className="heart"></span> 
+        </p>
+        <p className="small">
+        Launch your own AI agent to automate workflows, respond instantly, and stay productive.
+        </p>
+        <p>
+          <a
+            className="App-link"
+            href="https://youtube.com/@synagent?si=0DcaXGOLP91eL03E"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Watch Video
+          </a>
+        </p>
+      </header>
+    </div>
+  );
 }
 
 export default App;
