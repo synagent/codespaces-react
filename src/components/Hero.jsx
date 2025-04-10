@@ -13,7 +13,7 @@ const Hero = () => (
       data-aos="fade-up"
       data-aos-delay="200"
     >
-      Your AI Assistant<br />for Business Efficiency y mas
+      Your AI Assistant<br />for Business Efficiency 
     </h1>
 
     <p
