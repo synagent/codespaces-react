@@ -29,3 +29,18 @@
 .small {
   font-size: 0.75rem;
 }
+body {
+  background: radial-gradient(circle at center, #0f172a, #1e3a8a);
+  background-size: cover;
+}
+
+.glow {
+  filter: drop-shadow(0 0 12px #3b82f6);
+  animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+  100% { transform: translateY(0); }
+}
