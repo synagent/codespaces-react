@@ -8,7 +8,7 @@ function App() {
       <header className="App-header">
         <img src="image.png" className="App-logo" alt="logo" />
         <p>
-        Your AI Assistant test
+        Your AI Assistant test1
 for Business Efficiency <span className="heart"></span> 
         </p>
         <p className="small">
