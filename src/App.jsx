@@ -1,12 +1,12 @@
 import Hero from './components/Hero';
 import { FaBrain } from 'react-icons/fa';
 
-import React from 'react';
 import VideoSection from './components/VideoSection';
 import Animation from './components/Animation';
 import Footer from './components/Footer';
 import Features from './components/Features';
 import BackgroundCircuits from './components/BackgroundCircuits';
+
 import './index.css';
 
 
