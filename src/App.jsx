@@ -7,10 +7,10 @@ function App() {
     <div className="App text-white font-sans min-h-screen flex flex-col justify-center items-center text-center px-4">
       <header className="mt-10">
         {/* Logo */}
-        <img
-          src="logo.png"
-          alt="SynAgent Logo"
-          className="w-24 h-24 mx-auto mb-4 glow"
+        <img 
+        src="logo1.png" 
+        alt="SynAgent Logo" 
+        className="w-20 md:w-24 lg:w-28 h-auto mx-auto mb-4 glow"
         />
 
         {/* Main Title */}

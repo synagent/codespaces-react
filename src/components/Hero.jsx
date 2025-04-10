@@ -1,7 +1,7 @@
 const Hero = () => (
   <section className="min-h-screen flex flex-col justify-center items-center px-6 text-center relative z-10">
     <img
-      src="/image.png"
+      src="/logo.png"
       alt="SynAgent Logo"
       className="w-28 md:w-40 drop-shadow-[0_0_6px_#4f6b6b] mb-6"
       data-aos="zoom-in"
