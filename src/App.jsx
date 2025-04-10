@@ -7,7 +7,7 @@ import Footer from './components/Footer';
 import Feature from './components/Feature';
 import BackgroundCircuits from './components/BackgroundCircuits';
 
-import './index.css';
+import './App';
 
 
 
