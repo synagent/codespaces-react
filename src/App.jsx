@@ -4,7 +4,7 @@ import { FaBrain } from 'react-icons/fa';
 import VideoSection from './components/VideoSection';
 import Animation from './components/Animation';
 import Footer from './components/Footer';
-import Features from './components/Features';
+import Feature from './components/Feature';
 import BackgroundCircuits from './components/BackgroundCircuits';
 
 import './index.css';
